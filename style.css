@@ -1,0 +1,177 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*======================END OF CSS RESET==============================*/
+header{
+	height: 47px;
+	width: 1401px;
+	border-bottom: 1px solid #CCCCCC;
+	position: fixed;
+
+}
+
+body{
+	font-family: sans-serif;
+	width: 97%;
+	margin-left: 3%;
+	height: 800px;
+	
+	-webkit-box-shadow: -3px 0px 10px 0px #CCCCCC;
+	   -moz-box-shadow: -3px 0px 10px 0px #CCCCCC;
+			box-shadow: -3px 0px 10px 0px #CCCCCC;
+}
+
+header div{
+	display: inline-block;
+}
+.navigation{
+	margin-top: 7px;
+}
+
+.sections{
+	font-size: 11px;
+	font-weight: 700;
+	height: 30px;
+	border: 1px solid #dbdbdb;
+	width: 105px;
+	position: relative;
+	left: -15px;
+	background-color: white;
+	vertical-align: middle;
+	border-radius: 3px;
+	-webkit-box-shadow: -2px 2px 5px 0px rgba(176,170,176,1);
+	   -moz-box-shadow: -2px 2px 5px 0px rgba(176,170,176,1);
+			box-shadow: -2px 2px 5px 0px rgba(176,170,176,1);
+}
+.sections:hover{
+	background-color: #F5F5F5;
+}
+.sections i{
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	background-image: url(images/sprite-no-repeat.png);
+	background-repeat: no-repeat;
+	background-position: -477px -105px;
+	margin-top: 7px;
+	float: left;
+	margin-left: 10px;
+	
+}
+
+.sections span{
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+.home, .search{
+	font-size: 11px;
+	font-weight: 700;
+	height: 30px;
+	width: 90px;
+	background-color: white;
+	vertical-align: middle;
+	border-radius: 3px;
+}
+
+.home:hover, .search:hover{
+	background-color: #F5F5F5;
+}
+.home i, .search i{
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	margin-top: 7px;
+	float: left;
+	margin-left: 10px;
+	
+}
+
+.home i{
+
+	background-image: url(images/sprite-no-repeat.png);
+	background-repeat: no-repeat;
+	background-position: -288px -137px;
+}
+.search i{
+	background-image: url(images/sprite-no-repeat.png);
+	background-repeat: no-repeat;
+	background-position: -429px -105px;
+}
+.home span, .search span{
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+	margin-left: 7px;
+}
+.head{
+	height: 26px;
+	width: 200px;
+	background-repeat: no-repeat;
+	background-image: url(images/nyt-logo.svg);
+	vertical-align: middle;
+	margin-left: 200px;
+}
+
+.subscribe, .login{
+	border-radius: 3px;
+	padding: 10px;
+	font-size: 11px;
+	font-weight: 700;
+	color: white;
+	background-color: #6288a5;
+}
+.subscribe{
+
+	margin-left: 290px;
+}
+.subscribe:hover, .login:hover{
+	background-color: #326891;
+}
