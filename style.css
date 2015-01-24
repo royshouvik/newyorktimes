@@ -188,7 +188,7 @@ article{
 	margin-left: 80px;
 	margin-top: 80px;
 	width: 85%;
-	height: 7803px;
+	height: 7823px;
 	float: left;
 }
 h3{
@@ -369,6 +369,7 @@ b{
 }
 
 .half{
+	display: block;
 	width: 70px;
 	margin-left: 130px;
 	border-color: black;
@@ -381,11 +382,12 @@ section{
 	margin-left: 80px;
 }
 
-section hr:first-child{
-
-	
+#hr{
+	display: block;
 	border-left-style: none;	
 	height: 2px;
+	float: none;
+	width: 1050px;
 	border-top: 2px solid grey;
 	border-bottom: 1px solid grey;
 }
@@ -395,6 +397,7 @@ section div{
 	float: left;
 	width: 165px;
 }
+
 li{
 	font-family: arial;
 	font-size: 14px;
@@ -415,7 +418,7 @@ ul{
 .subscribe-footer{
 
 	border-left: 1px dotted grey;
-	height: 400px;
+	height: 390px;
 	padding-left: 10px;
 }
 
